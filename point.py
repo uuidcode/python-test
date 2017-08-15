@@ -11,5 +11,6 @@ class Point:
     def distance(self):
         return math.sqrt(math.pow(self.x, 2) + math.pow(self.y, 2))
 
+    @staticmethod
     def getCount():
         return Point.count
